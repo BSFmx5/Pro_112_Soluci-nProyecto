@@ -26,7 +26,7 @@ for file_name in list_of_files:
         #print("path1 " , path1)
         #print("path3 ", path3)
 
-        # # Verifica si la ruta carptea/Directorio existe antes de moverla
+        # Verifica si la ruta carptea/Directorio existe antes de moverla
         # De lo contrario, haz una NUEVA carpeta/Directorio luego muevela
         
         if os.path.exists(path2):
